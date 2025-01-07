@@ -1,6 +1,7 @@
-# AI Prediction Service
+# Serwis WWW z modelem AI
 
-Ten projekt to prosty serwis WWW oparty na Flasku, który wykorzystuje model AI do przewidywań na podstawie przesłanych danych. Całość została skonteneryzowana przy użyciu Dockera.
+
+Serwis WWW oparty na Flasku, który wykorzystuje model AI do przewidywań na podstawie przesłanych danych. Całość została skonteneryzowana przy użyciu Dockera.
 
 ---
 
