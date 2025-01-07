@@ -94,6 +94,3 @@ docker rm <CONTAINER_ID>
 
 ---
 
-## 7. Licencja
-
-Ten projekt jest dostępny na licencji MIT.
