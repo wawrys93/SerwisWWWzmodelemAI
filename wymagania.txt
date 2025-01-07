@@ -1,0 +1,5 @@
+Utwórz serwis www - na dowolnie wybranym serwerze (php, java, js, python ) tak by pobierał on dane (format json) i zwracał predykcję modelu. 
+
+serwis ten skonteneryzuj przy uzyciu Docker - tak by uruchamiał się na dowolnym środowisku. 
+
+Całość wrzuć jako projekt do github i prześlij link 
