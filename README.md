@@ -89,7 +89,7 @@ docker rm <CONTAINER_ID>
 
 ## 6. Pliki w projekcie
 
-- **app.py** - kod aplikacji
+- **app.py** - kod
 - **Dockerfile** - konfiguracja Dockera
 - **requirements.txt** - treść zadania
 
