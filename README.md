@@ -91,7 +91,7 @@ docker rm <CONTAINER_ID>
 
 - **app.py** - kod aplikacji
 - **Dockerfile** - konfiguracja Dockera
-- **requirements.txt** - zależności
+- **requirements.txt** - treść zadania
 
 ---
 
