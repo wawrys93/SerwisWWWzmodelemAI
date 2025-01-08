@@ -2,10 +2,9 @@ from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 
-# Inicjalizacja aplikacji Flask
 app = Flask(__name__)
 
-# Załadowanie przykładowego modelu AI (regresja liniowa)
+# załadowanie przykładowego modelu AI - regresja liniowa
 try:
     model = joblib.load('model.pkl')
 except:
@@ -17,23 +16,23 @@ except:
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        # Pobranie danych JSON
+        # pobranie danych JSON
         data = request.get_json()
         values = data['values']
 
-        # Konwersja danych do tablicy NumPy
+        # konwersja danych do tablicy NumPy
         input_data = np.array(values).reshape(-1, 1)
 
-        # Predykcja wyników
+        # predykcja wyników
         predictions = model.predict(input_data)
 
-        # Zwrot odpowiedzi JSON
+        # zwrot odpowiedzi JSON
         return jsonify({'predictions': predictions.tolist()})
 
     except Exception as e:
         return jsonify({'error': str(e)})
 
-# Endpoint testowy
+# endpoint testowy
 @app.route('/', methods=['GET'])
 def home():
     return "AI Prediction Service is running!"
