@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-4. Odwiedź stronę testową w przeglądarce:
+4. Otwórz stronę testową w przeglądarce:
 ```
 http://localhost:5000
 ```
